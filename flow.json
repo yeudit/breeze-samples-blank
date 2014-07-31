@@ -1,0 +1,38 @@
+[
+    {
+        "type": "tab",
+        "id": "29262e24.d6d9d2",
+        "label": "Sheet 1"
+    },
+    {
+        "id": "22597523.dda68a",
+        "type": "inject",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 210,
+        "y": 132,
+        "z": "29262e24.d6d9d2",
+        "wires": [
+            [
+                "be32d562.41cd28"
+            ]
+        ]
+    },
+    {
+        "id": "be32d562.41cd28",
+        "type": "debug",
+        "name": "",
+        "active": true,
+        "console": false,
+        "complete": false,
+        "x": 341,
+        "y": 119,
+        "z": "29262e24.d6d9d2",
+        "wires": []
+    }
+]
